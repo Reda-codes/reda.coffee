@@ -12,8 +12,8 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className='text-center text-6xl mb-5 xxsm:text-xl'>
-          <span className="hand">👋</span> Hello and Welcome
+        <h1 className='text-center md:text-6xl mb-5 xxs:text-3xl'>
+          <span className="hand">👋</span> Hello I'm Reda
         </h1>
         <p className='text-center w-4/5 font-mono'> So you clicked on my profile link, it is a great honor to have you here.
           Unfotunatly there is no coffee here yet.<br />
