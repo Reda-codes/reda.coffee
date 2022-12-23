@@ -13,12 +13,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className='text-center md:text-6xl mb-5 xxs:text-3xl'>
-          <span className="hand">👋</span> Hello I am Reda
+          <span className="hand mb-6">👋</span><br /> Hello I am Reda
         </h1>
-        <p className='text-center w-4/5 font-mono'> So you clicked on my profile link, it is a great honor to have you here.
+        <p className='text-center w-4/5 font-mono'>
           Unfotunatly there is no coffee here yet.<br />
         </p>
-        <p className='text-center w-4/5 font-mono'> <span className='text-red-700'>WARNING!:</span> The person you are about to communicate with in case you did so is very Abstract, weird and unbiased. So, I hope you did not change your mind. Looking forward to talk to you.</p>
+        <p className='text-center w-4/5 font-mono'> <span className='text-red-700'>So</span>, Do you trust me. Only if you do please feel free to click below </p>
+        <button className='focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 mt-6' onClick={() => location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'} >Click Me</button>
 
 
       </main>
