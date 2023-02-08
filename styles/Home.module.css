@@ -16,7 +16,8 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-color: #ffffff;
+  border-top: 1px solid #3f3f3f;
   justify-content: center;
   align-items: center;
 }
@@ -117,9 +118,6 @@
 
 @media (prefers-color-scheme: dark) {
   .card,
-  .footer {
-    border-color: #222;
-  }
   .code {
     background: #111;
   }

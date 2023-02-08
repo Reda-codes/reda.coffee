@@ -24,7 +24,7 @@ export default function Home() {
 
       </main>
 
-      <footer className={styles.footer}>
+      <footer className={styles.footer} >
         <p>
           © 2022 Reda Coffee Company
         </p>
