@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+  var today = new Date();
+  let year = today.getFullYear();
   return (
     <div className={styles.container}>
       <Head>
@@ -18,7 +20,7 @@ export default function Home() {
         <p className='text-center w-4/5 font-mono'>
           Unfotunatly there is no coffee here yet.<br />
         </p>
-        <p className='text-center w-4/5 font-mono'> <span className='text-red-700'>So</span>, Do you trust me. Only if you do please feel free to click below </p>
+        <p className='text-center w-4/5 font-mono'> <span className='text-red-700'> Please</span>, feel free to click below </p>
         <button className='focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 mt-6' onClick={() => location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'} >Click Me</button>
 
 
@@ -26,7 +28,7 @@ export default function Home() {
 
       <footer className={styles.footer} >
         <p>
-          © 2022 Reda Coffee Company
+          © {year} Reda Coffee Company
         </p>
       </footer>
     </div>
