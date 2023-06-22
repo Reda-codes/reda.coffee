@@ -34,7 +34,7 @@ export default function Home() {
           Greetings, I am Reda.
         </h1>
         <p className='text-center w-4/5 font-mono'>
-          I am the caffeine herald! No scent of coffee here.<br />Fear not dear one, thirst quenched near. Find joy below, an adventure awaits that shall bring cheer to your ear!
+          The caffeine herald! No scent of coffee here.<br />Fear not dear one, thirst quenched near. Find joy below, an adventure awaits that shall bring cheer to your ear!
         </p>
         <button
           className='focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 mt-6'
